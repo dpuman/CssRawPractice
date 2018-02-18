@@ -1,0 +1,182 @@
+/* ========================================================================== */
+/* =header */
+/* ========================================================================== */
+header{
+    overflow: hidden;
+}
+header h1{
+    
+    text-indent: -99999px;
+   
+    float: left;
+    margin-bottom: 0px;
+    
+}
+header h1 a{
+    background: url(../img/logo.jpg) no-repeat;
+    
+    width: 175px;
+    height: 23px;
+    float: left;
+    margin-top: 0px;
+    margin: 10px 10px 20px;
+}
+/* ========================================================================== */
+/* navigator */
+/* ========================================================================== */
+a{
+    color: #7e7e7e;
+    text-decoration: none; 
+}
+a:hover, .selected{
+    color: black;
+    
+}
+nav{
+    float: right;
+    margin-top: 12px;
+}
+nav a{
+    text-transform: lowercase;
+}
+nav li{
+    display: inline;
+    margin-left: 17px; 
+}
+.ban{
+    height: 235px;
+    margin-bottom: 20px;
+}
+.banner{
+    overflow: hidden;
+}
+
+.banner{
+    background: url(../img/city.jpg) no-repeat;
+    /* width: 695px; */
+    height: 231px;
+    clear: both;
+    position: relative;
+}
+.banner h3{
+    color: white;
+    font-size: 28px;
+    width:  490px;
+    padding: 0 8px;
+    font-weight: normal;
+    position: absolute;
+    left: 8px;
+    bottom: -15px;
+background: rgba(0, 0, 0, .5);
+
+}
+.callout{
+    float: right;
+    height: 231px; 
+     
+    background: black;
+}
+
+/* ========================================================================== */
+/* main */
+/* ========================================================================== */
+
+.main a{
+    text-transform: uppercase;
+}
+p{
+color: #7e7e7e;
+font-size: 13px;
+line-height: 20px;
+}
+h2{
+    letter-spacing: -1px;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 10px;
+    line-height: 1em;
+} 
+.button{
+    padding: 6px;
+    background: #242424;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.button:hover{
+background: white;
+    color: black;
+}
+blockquote, blockquote p{
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+}
+blockquote{
+    position: relative;
+}
+.main blockquote p{
+    padding-left: 20px;
+}
+.main blockquote p:first-child::before{
+    content:'“';
+    font-size: 40px;
+    color: #bfbfbf;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+.main blockquote p:last-child::after{
+    content:'“';
+    font-size: 40px;
+    color: #bfbfbf;
+    float: right;
+    position: absolute;
+    bottom: -8px;
+    right: 160px;
+    
+}
+section{
+    box-sizing: border-box; 
+}
+/* ========================================================================== */
+/* footer */
+/* ========================================================================== */
+ footer{
+     clear: both;
+     border-top:1px solid #7e7e7e;
+     padding-top: 8px;
+     margin-top: 20px;
+ }
+
+/* ========================================================================== */
+/* work */
+/* ========================================================================== */
+
+
+.work h1{
+    font-size:  26px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+.work img{
+    width: 475px;
+    margin-bottom: 15px;
+}
+.work h4{
+    color: #787878;
+    margin-top: -5px; 
+    border-bottom: 1px solid #bfbfbf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
